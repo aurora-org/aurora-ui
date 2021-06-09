@@ -1,18 +1,26 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 /.idea
-.docz
 
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
 
+# development
+/site
+
 # testing
 /coverage
 
 # production
 /build
+/dist
+/lib
+/esm
+/.docz
+/doc-site
+/types
 
 # misc
 .DS_Store
