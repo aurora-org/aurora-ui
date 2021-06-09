@@ -1,11 +1,12 @@
 ---
-name: Alert Info
+name: Alert
 route: /Alert
 menu: Component
 ---
 
-import { Playground } from 'docz'
-import Alert from './alert'
+import { AuroraBox } from '../../doc-components'
+import BasicDemo from './demo/1-demo-basic'
+import BasicDemoCode from '!raw-loader!./demo/1-demo-basic.tsx'
 
 # Alert Info
 
@@ -13,9 +14,9 @@ Warning prompts, showing information that needs attention.
 
 ## Examples
 
-<Playground>
-  <Alert kind="warning">This is a warning info</Alert>
-</Playground>
+<AuroraBox code={BasicDemoCode}>
+  <BasicDemo />
+</AuroraBox>
 
 ## API
 

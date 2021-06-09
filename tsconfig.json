@@ -2,6 +2,11 @@
   "compilerOptions": {
     "baseUrl": "./",
     "target": "esnext",
+    "paths": {
+      "aurora-ui": ["components/index.ts"],
+      "aurora-ui/esm/*": ["components/*"],
+      "aurora-ui/lib/*": ["components/*"]
+    },
     "module": "commonjs",
     "jsx": "react",
     "declaration": true,
@@ -12,6 +17,6 @@
     "esModuleInterop": true,
     "resolveJsonModule": true
   },
-  "include": ["Components", "global.d.ts"],
+  "include": ["components", "global.d.ts"],
   "exclude": ["node_modules"]
 }

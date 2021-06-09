@@ -1,5 +1,5 @@
 export default {
-  files: './Components/**/*.{md,markdown,mdx}',
+  src: 'components',
   dest: 'doc-site',
   title: 'aurora-ui',
   typescript: true,
