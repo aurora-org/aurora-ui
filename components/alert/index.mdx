@@ -1,0 +1,25 @@
+---
+name: Alert
+route: /Alert
+menu: Component
+---
+
+import { AuroraBox } from '../../doc-components'
+import BasicDemo from './demo/1-demo-basic'
+import BasicDemoCode from '!raw-loader!./demo/1-demo-basic.tsx'
+
+# Alert Info
+
+Warning prompts, showing information that needs attention.
+
+## Examples
+
+<AuroraBox code={BasicDemoCode}>
+  <BasicDemo />
+</AuroraBox>
+
+## API
+
+| Property | Description | Type                                   | Default | Require |
+| -------- | ----------- | -------------------------------------- | ------- | ------- |
+| kind     | kind type   | 'info'/'positive'/'negative'/'warning' | 'info'  | false   |
