@@ -1,0 +1,24 @@
+---
+name: Alert Info
+route: /Alert
+menu: Component
+---
+
+import { Playground } from 'docz'
+import Alert from './alert'
+
+# Alert Info
+
+Warning prompts, showing information that needs attention.
+
+## Examples
+
+<Playground>
+  <Alert kind="warning">This is a warning info</Alert>
+</Playground>
+
+## API
+
+| Property | Description | Type                                   | Default | Require |
+| -------- | ----------- | -------------------------------------- | ------- | ------- |
+| kind     | kind type   | 'info'/'positive'/'negative'/'warning' | 'info'  | false   |

@@ -1,0 +1,13 @@
+module.exports = [{
+      plugin: require('../../node_modules/gatsby-plugin-mdx/gatsby-browser.js'),
+      options: {"plugins":[],"extensions":[".md",".mdx"],"remarkPlugins":[[null,{"type":"yaml","marker":"-"}],null],"rehypePlugins":[null,null],"gatsbyRemarkPlugins":[],"defaultLayouts":{"default":"/home/wanghuiyang/aurora/aurora-ui/node_modules/gatsby-theme-docz/src/base/Layout.js"},"lessBabel":false,"mediaTypes":["text/markdown","text/x-markdown"],"root":"/home/wanghuiyang/aurora/aurora-ui/.docz"},
+    },{
+      plugin: require('../../node_modules/gatsby-plugin-react-helmet-async/gatsby-browser.js'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('../../node_modules/gatsby-theme-docz/gatsby-browser.js'),
+      options: {"plugins":[],"themeConfig":{},"src":"./","gatsbyRoot":null,"themesDir":"src","mdxExtensions":[".md",".mdx"],"docgenConfig":{},"menu":[],"mdPlugins":[],"hastPlugins":[],"ignore":[],"typescript":true,"ts":false,"propsParser":true,"props-parser":true,"debug":false,"native":false,"openBrowser":null,"o":null,"open":null,"open-browser":null,"root":"/home/wanghuiyang/aurora/aurora-ui/.docz","base":"/","source":"./","gatsby-root":null,"files":"./Components/**/*.{md,markdown,mdx}","public":"/public","dest":"doc-site","d":".docz/dist","editBranch":"master","eb":"master","edit-branch":"master","config":"","title":"aurora-ui","description":"UI Framework for aurora-org.","host":"localhost","port":3001,"p":3000,"separator":"-","paths":{"root":"/home/wanghuiyang/aurora/aurora-ui","templates":"/home/wanghuiyang/aurora/aurora-ui/node_modules/docz-core/dist/templates","docz":"/home/wanghuiyang/aurora/aurora-ui/.docz","cache":"/home/wanghuiyang/aurora/aurora-ui/.docz/.cache","app":"/home/wanghuiyang/aurora/aurora-ui/.docz/app","appPackageJson":"/home/wanghuiyang/aurora/aurora-ui/package.json","appTsConfig":"/home/wanghuiyang/aurora/aurora-ui/tsconfig.json","gatsbyConfig":"/home/wanghuiyang/aurora/aurora-ui/gatsby-config.js","gatsbyBrowser":"/home/wanghuiyang/aurora/aurora-ui/gatsby-browser.js","gatsbyNode":"/home/wanghuiyang/aurora/aurora-ui/gatsby-node.js","gatsbySSR":"/home/wanghuiyang/aurora/aurora-ui/gatsby-ssr.js","importsJs":"/home/wanghuiyang/aurora/aurora-ui/.docz/app/imports.js","rootJs":"/home/wanghuiyang/aurora/aurora-ui/.docz/app/root.jsx","indexJs":"/home/wanghuiyang/aurora/aurora-ui/.docz/app/index.jsx","indexHtml":"/home/wanghuiyang/aurora/aurora-ui/.docz/app/index.html","db":"/home/wanghuiyang/aurora/aurora-ui/.docz/app/db.json"}},
+    },{
+      plugin: require('../../node_modules/gatsby-theme-docz/gatsby-browser.js'),
+      options: {"plugins":[]},
+    }]

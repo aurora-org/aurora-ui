@@ -1,0 +1,156 @@
+{
+  "config": {
+    "title": "aurora-ui",
+    "description": "UI Framework for aurora-org.",
+    "menu": [],
+    "version": "1.0.0",
+    "repository": null,
+    "native": false,
+    "themeConfig": {},
+    "separator": "-",
+    "files": "./Components/**/*.{md,markdown,mdx}",
+    "dest": "doc-site",
+    "typescript": true
+  },
+  "entries": [
+    {
+      "key": "Components/Alert/index.mdx",
+      "value": {
+        "name": "Alert Info",
+        "route": "/Alert",
+        "menu": "Component",
+        "id": "5abe17b65087fbb71e372ea4d33441ed",
+        "filepath": "Components/Alert/index.mdx",
+        "fullpath": "/home/wanghuiyang/aurora/aurora-ui/Components/Alert/index.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "components-alert-index",
+        "headings": [
+          {
+            "slug": "alert-info",
+            "depth": 1,
+            "value": "Alert Info"
+          },
+          {
+            "slug": "examples",
+            "depth": 2,
+            "value": "Examples"
+          },
+          {
+            "slug": "api",
+            "depth": 2,
+            "value": "API"
+          }
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "Components/index.ts",
+      "value": [
+        {
+          "tags": {},
+          "description": "",
+          "displayName": "Alert",
+          "methods": [],
+          "props": {
+            "kind": {
+              "defaultValue": {
+                "value": "info"
+              },
+              "description": "Set this to change alert kind",
+              "name": "kind",
+              "parent": {
+                "fileName": "/home/wanghuiyang/aurora/aurora-ui/Components/Alert/interface.ts",
+                "name": "AlertProps"
+              },
+              "declarations": [
+                {
+                  "fileName": "/home/wanghuiyang/aurora/aurora-ui/Components/Alert/interface.ts",
+                  "name": "AlertProps"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "\"info\" | \"positive\" | \"negative\" | \"warning\" | undefined"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "Components/Alert/alert.tsx",
+      "value": [
+        {
+          "tags": {},
+          "description": "",
+          "displayName": "alert",
+          "methods": [],
+          "props": {
+            "kind": {
+              "defaultValue": {
+                "value": "info"
+              },
+              "description": "Set this to change alert kind",
+              "name": "kind",
+              "parent": {
+                "fileName": "/home/wanghuiyang/aurora/aurora-ui/Components/Alert/interface.ts",
+                "name": "AlertProps"
+              },
+              "declarations": [
+                {
+                  "fileName": "/home/wanghuiyang/aurora/aurora-ui/Components/Alert/interface.ts",
+                  "name": "AlertProps"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "\"info\" | \"positive\" | \"negative\" | \"warning\" | undefined"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "Components/Alert/index.ts",
+      "value": [
+        {
+          "tags": {},
+          "description": "",
+          "displayName": "Alert",
+          "methods": [],
+          "props": {
+            "kind": {
+              "defaultValue": {
+                "value": "info"
+              },
+              "description": "Set this to change alert kind",
+              "name": "kind",
+              "parent": {
+                "fileName": "/home/wanghuiyang/aurora/aurora-ui/Components/Alert/interface.ts",
+                "name": "AlertProps"
+              },
+              "declarations": [
+                {
+                  "fileName": "/home/wanghuiyang/aurora/aurora-ui/Components/Alert/interface.ts",
+                  "name": "AlertProps"
+                }
+              ],
+              "required": false,
+              "type": {
+                "name": "\"info\" | \"positive\" | \"negative\" | \"warning\" | undefined"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "Components/Alert/style/index.ts",
+      "value": []
+    }
+  ]
+}
