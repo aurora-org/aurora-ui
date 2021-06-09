@@ -1,0 +1,12 @@
+{
+  "name": "aurora-ui",
+  "version": "1.0.0",
+  "description": "UI Framework for aurora-org.",
+  "main": "index.js",
+  "author": "Edward",
+  "license": "MIT",
+  "devDependencies": {
+    "@umijs/fabric": "^2.6.2",
+    "prettier": "^2.3.1"
+  }
+}
